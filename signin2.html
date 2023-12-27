@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesignin.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/templatemo-style.css">
+
+    <title>Andromeda</title>
+     <link rel="icon" type="image/png" href="images/title logo.png">
+</head>
+<body class="signupbody" style="background-image:url(images/background\ \(2\).jpg)">
+    <section class="navbar custom-navbar navbar-fixed-top " role="navigation">
+        <div class="container">
+
+             <div class="navbar-header nav">
+                  <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                       <span class="icon icon-bar"></span>
+                       <span class="icon icon-bar"></span>
+                       <span class="icon icon-bar"></span>
+                  </button>
+
+                  <!-- lOGO TEXT HERE -->
+                  <a href="index.html" class="navbar-brand nav "><img src="images/logo.png" alt="logo" height="45" width="180"></a>
+             </div>
+     
+                    
+               
+             <!-- MENU LINKS -->
+             <div class="collapse navbar-collapse navbar-right nav ">
+                  
+                  <ul class="nav navbar-nav navbar-nav-first ">
+                      <li> <div class="search-container">
+                            <form action="/action_page.php">
+                              <input type="text" placeholder="Search.." name="search">&nbsp;&nbsp;
+                              <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                          </div>
+                       </li>
+                       <li><a href="about.html" class="smoothScroll">About</a></li>
+                       <li class="dropdown"><a href="#"><span>Courses</span> <i class="bi bi-chevron-down"></i></a>
+                            <ul>
+                              <li><a href="Personality Development.php">Personality Development</a></li>
+                              <li><a href="linux.php">Linux &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                              <li><a href="health& fitness cources.php">Health and Fitness&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                              <li><a href="web developer.php">Web Development&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                              <li><a href="career development.php">Career Development&nbsp;&nbsp;&nbsp;</a></li>
+                            </ul>
+                          </li>
+                       <li><a href="login.html" class="smoothScroll">LOG IN</a></li>
+                       <li><a href="signin.html" class="smoothScroll">SIGN UP</a></li>
+                  </ul>
+             </div>
+
+        </div>
+   </section>
+    <div class="wrapper">
+   
+        <form action="signinback.php" method="post">
+            <!-- <h2>Login</h2> -->
+            <div class="logoimg">
+            <img  src="images/logo.png" alt="logo" height="60px" width="230px">
+        </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="person" style="padding-top: 30px;"></ion-icon>
+                </span>
+                <input type="text" 
+                placeholder="Username" required class="input" name="username">
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </span>
+                <input type="email" 
+                placeholder="Enter your e-mail" required class="input" name="email">
+            </div>
+            
+<!--             
+              <button id="showCheckboxesBtn" class="btn btn-primary">Show Checkboxes</button>
+
+            <div id="checkboxContainer" style="display: none;">
+                 <div class="form-check">
+                   <input class="form-check-input" type="checkbox" name="topics[]" id="topic1" value="topic1">
+                   <label class="form-check-label" for="topic1">
+                  Topic 1
+                   </label>
+                 </div>
+                 <div class="form-check">
+                   <input class="form-check-input" type="checkbox" name="topics[]" id="topic2" value="topic2">
+                   <label class="form-check-label" for="topic2">
+                        Topic 2
+                   </label>
+                 </div>
+                
+            </div> -->
+
+
+
+
+
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="key"></ion-icon>
+                </span>
+                <input type="password" 
+                placeholder="Password" required class="input" name="password">
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="key"></ion-icon>
+                </span>
+                <input type="password" 
+                placeholder="Confirm Password" required class="input" name="cpassword">
+            </div>
+            <div class="forgot-password">
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button class="signupbt" type="submit" name="signup">Signup</button>
+            <div class="registration-link">
+                <p>If you have alredy signup? <a href="login.html">Login</a></p>
+            </div>
+        </form>
+    </div>
+     <!-- SCRIPTS -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!-- <script>
+    // JavaScript
+     var checkboxContainer = document.getElementById("checkboxContainer");
+     var showCheckboxesBtn = document.getElementById("showCheckboxesBtn");
+
+     showCheckboxesBtn.addEventListener("click", function() {
+    if (checkboxContainer.style.display === "none") {
+    checkboxContainer.style.display = "block";
+    } else {
+    checkboxContainer.style.display = "none";
+    }
+    });
+
+</script> -->
+</body>
+</html>
